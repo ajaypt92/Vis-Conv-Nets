@@ -36,3 +36,11 @@ For instance, following are the outputs of some of the intermediate convolution 
 > __*Figure: Conv2d_1*__
 ![Conv2d_1](https://github.com/ajaypt92/VisConvNets/blob/master/Images/conv2d_1_grid.jpg)
 
+> __*Figure: Conv2d_4*__
+![Conv2d_4](https://github.com/ajaypt92/VisConvNets/blob/master/Images/conv2d_4_grid.jpg)
+
+> __*Figure: Conv2d_9*__
+![Conv2d_9](https://github.com/ajaypt92/VisConvNets/blob/master/Images/conv2d_9_grid.jpg)
+
+> __*Filters from layers First, Fourth and Ninth convolution layers in InceptionV3*__
+
