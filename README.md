@@ -30,5 +30,9 @@ For understanding how our deep CNN model is able to classify the input image, we
 
 For instance, following are the outputs of some of the intermediate convolution and their corresponding activation layers of the trained InceptionV3 model, when provided with image of a flower from test set.
 
-> __*Figure 2: Frequency of Hero Picks*__
-![Frequency of Hero Picks](https://github.com/ajaypt92/DOTA2Analysis/blob/master/Visualizations/Fig2.png)
+> __*Figure: Original Image*__
+![Original Image](https://github.com/ajaypt92/VisConvNets/blob/master/Images/OriginalImage.jpeg)
+
+> __*Figure: Conv2d_1*__
+![Conv2d_1](https://github.com/ajaypt92/VisConvNets/blob/master/Images/conv2d_1_grid.jpg)
+
