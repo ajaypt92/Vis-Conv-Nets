@@ -11,14 +11,24 @@ Although I have tried to explain my code with comments, but for any issues you c
 
 ## Concept behind the project
 From the Face Recognition in your phone to driving your cars, the tremendous power of CNNs is being used to solve many real-world problems.
+
 But despite the wide availability of large databases and pre-trained CNN models, sometimes it becomes quite difficult to understand what and how exactly your large model is learning, especially for people without the required background of Machine Learning.
+
 The goal of most people is to just use the pre-trained model to some image classification or any other related problem to get the final results. They are least bothered about the internal workings of the network, which can actually tell them a lot about how and what their network is learning and also debug its failures.
+
 In this project, I have summarized the three techniques that I learned and my results to further understanding the internal working on convnets.
 
 ## Enter Visualizations
 Visualizing the output of your machine learning model is a great way to see how its progressing, be it a tree-based model or a large neural network. While training deep networks, most people are only concerned with the training error(accuracy) and validation error(accuracy). While judging these two factors does give us an idea of how our network is performing at each epoch, when it comes to deep CNN networks like Inception there is so much more that we can visualize and thus learn about network architecture.
+
 I will demonstrate few ways of visualizing your model outputs (intermediate as well as final layers), which can help you gain more insight into working of your model. I trained the InceptionV3 model (pre-trained on ImageNet) available in Keras, on Flower recognition dataset available on Kaggle.
+
 I trained the model for 10 epochs with a batch size of 32, with each image resized to a shape of (299, 299, 3), which is required by the pre-trained InceptionV3 model. My model was able to reach training loss of 0.3195 and validation loss of 0.6377. I used Keras inbuilt ImageDataGenerator module for augmenting images, so that the model does not over-fit too quickly.
 
 ## Visualizing Intermediate Layer Activations
 For understanding how our deep CNN model is able to classify the input image, we need to understand how our model sees the input image by looking at the output of its intermediate layers. By doing so, we are able to learn more about the working of these layers.
+
+For instance, following are the outputs of some of the intermediate convolution and their corresponding activation layers of the trained InceptionV3 model, when provided with image of a flower from test set.
+
+> __*Figure 2: Frequency of Hero Picks*__
+![Frequency of Hero Picks](https://github.com/ajaypt92/DOTA2Analysis/blob/master/Visualizations/Fig2.png)
