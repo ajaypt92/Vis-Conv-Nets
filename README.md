@@ -1,5 +1,5 @@
 # VisConvNets
-This project is fpr the purpose of understanding Convolution networks with Visualizations 
+This is a personal project for the purpose of understanding Convolution networks with visualizations of intermediate Convolution and Activation layers. 
 
 I have used the following dataset https://www.kaggle.com/alxmamaev/flowers-recognition for training my InceptionV3 model.
 
